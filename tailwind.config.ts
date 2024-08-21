@@ -13,6 +13,9 @@ const config: Config = {
       burgundy: '#882727',
       white: '#FFFFFF'
     },
+    backgroundSize: {
+      6: '6rem'
+    },
     extend: {
       flexGrow: {
         '0.7': '0.7'
