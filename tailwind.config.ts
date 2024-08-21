@@ -8,9 +8,15 @@ const config: Config = {
   ],
   theme: {
     backgroundColor: {
-      beige: '#FFF6D7'
+      beige: '#FFF6D7',
+      black: '#1E1E1E',
+      burgundy: '#882727',
+      white: '#FFFFFF'
     },
     extend: {
+      flexGrow: {
+        '0.7': '0.7'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
