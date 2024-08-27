@@ -1,0 +1,21 @@
+{
+  "header": {
+    "main_page": "Main Page"
+  },
+  "home": {
+    "main_text": "Gagauz and Bulgarian Cuisine Restaurant",
+    "main_description": "We welcome guests with an authentic atmosphere and sincere hospitality."
+  },
+  "buttons": {
+    "menu": "View Menu",
+    "reservation": "Reservation"
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "about_us": {
+    "title": "About Us"
+  },
+  "footer": {
+  }
+}
