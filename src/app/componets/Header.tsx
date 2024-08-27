@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 
 const Header = () => {
+  const { i18n } = useTranslation()
   return (
     <header className='border-b-2 border-black bg-beige h-18'>
       <div className='flex justify-between mx-auto container'>
@@ -21,13 +23,22 @@ const Header = () => {
           <h1>Gök-Oguz</h1>
         </div>
         <div className='flex px-3 lg:px-8 gap-2 lg:gap-8 bg-black text-white items-center grow-0 font-light text-sm lg:text-lg'>
-          <span className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'>
+          <span
+            onClick={() => i18n.changeLanguage('ro')}
+            className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'
+          >
             RO
           </span>
-          <span className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'>
+          <span
+            onClick={() => i18n.changeLanguage('en')}
+            className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'
+          >
             EN
           </span>
-          <span className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'>
+          <span
+            onClick={() => i18n.changeLanguage('ru')}
+            className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'
+          >
             RU
           </span>
         </div>

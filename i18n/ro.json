@@ -1,0 +1,35 @@
+{
+  "header": {
+    "main_page": "Pagina principala"
+  },
+  "home": {
+    "main_text": "Restaurant de bucătărie Găgăuză şi Bulgară",
+    "main_description": "Întâmpinăm oaspeții cu o ambianță autentică și ospitalitate sinceră."
+  },
+  "buttons": {
+    "menu": "Vezi menu",
+    "reservation": "Rezervare"
+  },
+  "gallery": {
+    "title": "Galerie"
+  },
+  "about_us": {
+    "title": "Despre noi"
+  },
+  "footer": {
+  },
+  "contacts": {
+    "title": "Contacte",
+    "open": "Deschis",
+    "closed": "Închis"
+  },
+  "week": {
+    "Monday": "L",
+    "Tuesday": "M",
+    "Wednesday": "M",
+    "Thursday": "J",
+    "Friday": "V",
+    "Saturday": "S",
+    "Sunday": "D"
+  }
+}

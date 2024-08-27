@@ -1,19 +1,22 @@
 'use client'
 
 import Image from 'next/image'
-import { useEffect } from 'react'
+import Title from '../componets/Title/Title'
+import { useTranslation } from 'react-i18next'
 
-const week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
 const Contacts = () => {
+  const { t } = useTranslation()
   const todayDate = new Date()
-  console.log(todayDate.getFullYear())
-  console.info(`Date is`, todayDate.getDay())
+  const europeanDate = !todayDate.getDay() ? 6 : todayDate.getDay()
+  const hour = todayDate.getHours()
+  const isOpen = hour >= 10 && hour < 22
 
   return (
     <>
-      <div>
-        <p className='flex justify-center text-5xl font-light mb-32 '>Contacte</p>
+      <div className='pt-8'>
+        <Title classNames='text-center'>{t('contacts.title')}</Title>
       </div>
       <div className='flex flex-col leading-loose gap-2'>
         <div className='flex gap-4'>
@@ -38,7 +41,7 @@ const Contacts = () => {
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/vector.svg' alt='location' width={25} height={25}></Image>
-          <h1 className=''>str. Calea Orheiului 19A, Chisinau, Moldova</h1>
+          <h1 className=''>str. Calea Orheiului 19A, Chișinău, Moldova</h1>
         </div>
       </div>
       <div>
@@ -46,12 +49,20 @@ const Contacts = () => {
           <Image src='/assets/svg/clock.svg' alt='clock' width={32} height={32}></Image>
           <p>Orele de lucru</p>
         </div>
-        <ul className=''>
-          {week.map((day) => {
+        <ul className='mt-4 '>
+          {week.map((day, index) => {
             return (
-              <li className='flex gap-4'>
-                <span>{day}</span>
-                10:00 - 22:00
+              <li key={index} className='flex items-center gap-4'>
+                <span className='bg-black rounded w-6 text-center mb-1 text-white'>
+                  {t(`week.${day}`)}
+                </span>
+                10:00 - 22:00{' '}
+                {europeanDate === index + 1 &&
+                  (isOpen ? (
+                    <span className='text-green-500'>{t('contacts.open')}</span>
+                  ) : (
+                    <span className='text-red-500'>{t('contacts.closed')}</span>
+                  ))}
               </li>
             )
           })}
