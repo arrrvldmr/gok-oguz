@@ -20,7 +20,7 @@ const Header = () => {
           <Image src='/assets/svg/logo.svg' alt='Gok-Oguz' width={65} height={50} />
           <h1>Gök-Oguz</h1>
         </div>
-        <div className='flex px-8 gap-8 bg-black text-white items-center grow-0 font-light'>
+        <div className='flex px-3 lg:px-8 gap-2 lg:gap-8 bg-black text-white items-center grow-0 font-light text-sm lg:text-lg'>
           <span className='cursor-pointer opacity-70 hover:opacity-100 transition duration-150 ease-out hover:ease-in hover:underline hover:underline-offset-8'>
             RO
           </span>
