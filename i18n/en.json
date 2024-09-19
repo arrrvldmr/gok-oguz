@@ -1,26 +1,41 @@
 {
   "header": {
-    "main_page": "Main Page"
+    "main_page": "Main Page",
+    "menu": "Menu",
+    "contacts": "Contacts"
   },
   "home": {
     "main_text": "Gagauz and Bulgarian Cuisine Restaurant",
-    "main_description": "We welcome guests with an authentic atmosphere and sincere hospitality."
+    "main_description": "We welcome guests with an authentic atmosphere and sincere hospitality.",
+    "traditions_title":"Gagauz traditions in Chișinău ",
+    "traditions_text":"In Gagauz cuisine, lamb plays an important role and is used in various dishes; the Gagauz appreciate lamb for its delicate taste and because it has been part of their culinary tradition since ancient times.",
+    "traditions_wines":"Here are some wines that pair excellently with lamb dishes:"
   },
   "buttons": {
     "menu": "View Menu",
-    "reservation": "Reservation"
+    "reservation": "Reservation",
+    "location": "See location"
   },
-  "gallery": {
-    "title": "Gallery"
+  "photos": {
+    "photo_title": "Relax in a unique ambiance",
+    "restaurant_description": "The restaurant is decorated with traditional Gagauz elements, including carved wooden furniture, colorful textiles, and traditional motifs.",
+    "restaurant_atmosphere": "Atmosphere is warm and welcoming, reflecting the hospitality of the Gagauz people.",
+    "restaurant_places": "If you need a quiet space for work or studying, quieter areas are available. We also offer tables for conferences or a pleasant stay with colleagues.",
+    "restaurant_waiters": "Our waitstaff will always help you choose a suitable spot."
   },
-  "about_us": {
-    "title": "About Us"
+  "gagauz_culture": {
+    "title": "A Distinct Culture in Southern Moldova",
+    "gagauz_location":"Gagauzia is an autonomous region located in the south of the Republic of Moldova, known for its predominantly Gagauz population, an ethnic group of Turkic origin.",
+    "gagauz_languages":"The Gagauz culture is unique and distinctive, blending Turkic influences with local Moldovan traditions. The Gagauz language, part of the Turkic language family, is spoken alongside Romanian and Russian. The region is renowned for its traditional customs, cultural festivals, and distinctive cuisine, which reflects a combination of flavors and culinary techniques inherited from Turkic ancestors and adapted to local conditions.",
+    "gagauz_example":"Gagauzia is an example of ethnic and cultural diversity in Moldova, contributing to the country’s rich cultural heritage."
+    
   },
 
   "footer": {
   },
   "contacts": {
     "title": "Contacts",
+    "work_hours": "Open hours",
     "open": "Open",
     "closed": "Closed"
   },

@@ -3,22 +3,22 @@ import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
 
 const Header = () => {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   return (
     <header className='border-b-2 border-black bg-beige h-18'>
-      <div className='flex justify-between mx-auto container'>
-        <ul className='flex items-center gap-12 grow-[0.7] font-medium'>
+      <div className='flex justify-center md:justify-between mx-auto container'>
+        <ul className='hidden md:flex items-center gap-12 grow-[0.7] font-medium'>
           <li className='hover:underline hover:underline-offset-8'>
-            <Link href='/'>Principala</Link>
+            <Link href='/'>{t('header.main_page')}</Link>
           </li>
           <li className='hover:underline hover:underline-offset-8'>
-            <Link href='/menu'>Meniu</Link>
+            <Link href='/menu'>{t('header.menu')}</Link>
           </li>
           <li className='hover:underline hover:underline-offset-8'>
-            <Link href='/contacts'>Contacte</Link>
+            <Link href='/contacts'>{t('header.contacts')}</Link>
           </li>
         </ul>
-        <div className='flex items-center py-2 gap-4 text-xl grow font-bold'>
+        <div className='flex items-center justify-center  md:justify-start py-2 gap-4 text-xl grow font-bold'>
           <Image src='/assets/svg/logo.svg' alt='Gok-Oguz' width={65} height={50} />
           <h1>Gök-Oguz</h1>
         </div>

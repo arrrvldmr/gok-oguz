@@ -1,27 +1,42 @@
 {
   "header": {
-    "main_page": "Pagina principala"
+    "main_page": "Principală",
+    "menu": "Meniu",
+    "contacts": "Contacte"
   },
   "home": {
     "main_text": "Restaurant de bucătărie Găgăuză şi Bulgară",
-    "main_description": "Întâmpinăm oaspeții cu o ambianță autentică și ospitalitate sinceră."
+    "main_description": "Întâmpinăm oaspeții cu o ambianță autentică și ospitalitate sinceră.",
+    "traditions_title": "Tradiții Găgăuze în orașul Chișinău",
+    "traditions_text": "În bucătăria găgăuză, carnea de miel joacă un rol important și este folosită în diverse feluri. Găgăuzii apreciază mielul pentru gustul său delicat și pentru că face parte din tradiția lor culinară încă din vechime.",
+    "traditions_wines": "Iată câteva vinuri care se potrivesc excelent cu preparatele din carne de miel:"
   },
   "buttons": {
-    "menu": "Vezi menu",
-    "reservation": "Rezervare"
+    "menu": "Vezi Meniul",
+    "reservation": "Rezervare",
+    "location": "Vezi locația"
   },
-  "gallery": {
-    "title": "Galerie"
+  "photos": {
+    "photo_title": "Relaxați-vă într-o ambianță unică",
+    "restaurant_description": "Restaurantul este decorat cu elemente tradiționale găgăuze. Acestea includ mobilier din lemn sculptat, țesături colorate, și motive tradiționale.",
+    "restaurant_atmosphere": "Atmosfera este caldă și primitoare, reflectând ospitalitatea găgăuzilor.",
+    "restaurant_places": "În caz că aveți nevoie de liniște pentru lucru sau studii , sunt disponibile locuri mai puțin gălăgioase. La fel sunt disponibile mese pentru conferințe sau pentru o ședere plăcută între colegi.",
+    "restaurant_waiters": "Chelnerii noștri vă vor ajuta mereu să alegeți un loc potrivit."
   },
-  "about_us": {
-    "title": "Despre noi"
+  "gagauz_culture": {
+    "title": "O cultură distinctă în sudul Moldovei",
+    "gagauz_location":"Găgăuzia este o regiune autonomă situată în sudul Republicii Moldova, cunoscută pentru populația sa predominant găgăuză, un grup etnic de origine turcică.",
+    "gagauz_languages":"Cultura găgăuză este unică și distinctă, îmbinând influențe turcice cu tradițiile locale moldovenești. Limba găgăuză, parte a familiei limbilor turcice, este vorbită alături de limba română și rusă. Regiunea este renumită pentru obiceiurile sale tradiționale, festivalurile culturale și bucătăria specifică, care reflectă o combinație de arome și tehnici culinare moștenite de la strămoșii turcici și adaptate condițiilor locale.",
+    "gagauz_example":"Găgăuzia este un exemplu de diversitate etnică și culturală în Moldova, contribuind la bogăția culturală a țării."
   },
   "footer": {
   },
   "contacts": {
     "title": "Contacte",
+    "work_hours": "Orele de lucru",
     "open": "Deschis",
     "closed": "Închis"
+
   },
   "week": {
     "Monday": "L",

@@ -2,7 +2,7 @@
 
 interface ButtonProps {
   text: string
-  onClick: () => void
+  onClick?: () => void
   classNames?: string
 }
 

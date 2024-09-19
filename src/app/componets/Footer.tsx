@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Footer = () => {
   const year = new Date().getFullYear()
   return (
-    <footer className='flex justify-center'>
+    <footer className='flex justify-center md:pb-0 pb-12'>
       <div className='pb-8'>
         <Image
           src='/assets/svg/Black_barashek.svg'

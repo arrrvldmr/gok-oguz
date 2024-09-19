@@ -1,5 +1,5 @@
 'use client'
-
+import Link from 'next/link'
 import Image from 'next/image'
 import Title from '../componets/Title/Title'
 import { useTranslation } from 'react-i18next'
@@ -14,26 +14,32 @@ const Contacts = () => {
   const isOpen = hour >= 10 && hour < 22
 
   return (
-    <>
-      <div className='pt-8'>
+    <div className='lg:mb-38 mb-12'>
+      <div className='pt-2'>
         <Title classNames='text-center'>{t('contacts.title')}</Title>
       </div>
-      <div className='flex flex-col leading-loose gap-2'>
+      <div className=' flex flex-col leading-loose gap-2 pt-20'>
         <div className='flex gap-4'>
           <Image src='/assets/svg/phone.svg' alt='phone' width={25} height={25}></Image>
           <p>079468852</p>
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/instagram.svg' alt='instagram' width={25} height={25}></Image>
-          <p>@gok_oguz_restaurant</p>
+          <a href='https://www.instagram.com/gok_oguz__restaurant/' target='_blank'>
+            @gok_oguz_restaurant
+          </a>
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/facebook.svg' alt='facebook' width={25} height={25}></Image>
-          <p>https://www.facebook.com/restaurant.Gok.Oguz</p>
+          <a href='https://www.facebook.com/restaurant.Gok.Oguz' target='_blank'>
+            Gök-Oguz
+          </a>
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/tiktok.svg' alt='tiktok' width={25} height={25}></Image>
-          <p>@gok.oguz.restaurant</p>
+          <a href='https://www.tiktok.com/@gok.oguz.restaurant?lang=en' target='_blank'>
+            @gok.oguz.restaurant
+          </a>
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/mail.svg' alt='email' width={25} height={25}></Image>
@@ -41,13 +47,15 @@ const Contacts = () => {
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/vector.svg' alt='location' width={25} height={25}></Image>
-          <h1 className=''>str. Calea Orheiului 19A, Chișinău, Moldova</h1>
+          <a href='https://maps.app.goo.gl/KchdcDHBHo2pMazQ8' target='_blank'>
+            str. Calea Orheiului 19A, Chișinău, Moldova
+          </a>
         </div>
       </div>
       <div>
         <div className='flex gap-4 text-xl items-center mt-12'>
           <Image src='/assets/svg/clock.svg' alt='clock' width={32} height={32}></Image>
-          <p>Orele de lucru</p>
+          {t('contacts.work_hours')}
         </div>
         <ul className='mt-4 '>
           {week.map((day, index) => {
@@ -68,7 +76,16 @@ const Contacts = () => {
           })}
         </ul>
       </div>
-    </>
+      <div className=' lg:absolute right-0 top-52 mt-12'>
+        <Image
+          className='rounded-l-lg'
+          src='/assets/images/map.png'
+          alt='gok-oguz map'
+          width={850}
+          height={850}
+        ></Image>
+      </div>
+    </div>
   )
 }
 
