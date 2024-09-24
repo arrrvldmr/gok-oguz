@@ -17,25 +17,28 @@ const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
     <I18nextProvider i18n={i18n}>
-      <html lang='en'>
-        <body className={onest.className}>
-          <Header />
-          <main className='bg-beige h-full'>
-            <div className="bg-[url('/assets/svg/ornament.svg')] bg-[length:6rem] lg:bg-[length:12rem]  bg-repeat-y bg-right h-auto w-full container mx-auto">
-              {children}
+      <html lang="en">
+      <body className={onest.className}>
+      <Header />
+      <main className="bg-beige h-full md:">
+        <div
+          className="bg-[url('/assets/svg/ornament.svg')] bg-[length:6rem] lg:bg-[length:12rem]  bg-repeat-y bg-right h-auto w-full container mx-auto">
 
-              <Footer />
+          {children}
 
-              <MobileMenu />
-            </div>
-          </main>
-        </body>
+
+          <Footer />
+
+          <MobileMenu />
+        </div>
+      </main>
+      </body>
       </html>
     </I18nextProvider>
   )

@@ -4,6 +4,32 @@
     "menu": "Meniu",
     "contacts": "Contacte"
   },
+  "menuCardsItems": {
+    "carneGherghievschi": "Carne \"Po-Gheorghievski",
+    "descCarne": "Pilaf,legume la cuptor",
+    "friptura": "Friptură bulgărească",
+    "descFriptura": "Carne de miel",
+    "budjak": "Gustare ”Budjak”",
+    "descBudjak": "Căvurma de miel, brânză de oi, roșii, castraveți, prune uscate, ceapă, măsline.",
+    "borsRosu": "Borş “Roşu”",
+    "descBorsRosu": "Borș roșu cu carne de porc și fasole"
+  },
+  "menuList": {
+    "main_dish": "Gustări",
+    "lamb": "Carne de miel",
+    "chicken": "Carne de pui",
+    "pork": "Porcina",
+    "birds": "Pasare",
+    "fish": "Peşte",
+    "grilled_food": "Bucate la grătar",
+    "garnishes": "Garnituri",
+    "sauces": "Sosuri",
+    "bread": "Ghiozleme, lavaș și pâine",
+    "diverse": "Diverse",
+    "salads": "Salate",
+    "supe": "Supe",
+    "mamaliga": "Bucate cu mămăligă"
+  },
   "home": {
     "main_text": "Restaurant de bucătărie Găgăuză şi Bulgară",
     "main_description": "Întâmpinăm oaspeții cu o ambianță autentică și ospitalitate sinceră.",
@@ -25,9 +51,9 @@
   },
   "gagauz_culture": {
     "title": "O cultură distinctă în sudul Moldovei",
-    "gagauz_location":"Găgăuzia este o regiune autonomă situată în sudul Republicii Moldova, cunoscută pentru populația sa predominant găgăuză, un grup etnic de origine turcică.",
-    "gagauz_languages":"Cultura găgăuză este unică și distinctă, îmbinând influențe turcice cu tradițiile locale moldovenești. Limba găgăuză, parte a familiei limbilor turcice, este vorbită alături de limba română și rusă. Regiunea este renumită pentru obiceiurile sale tradiționale, festivalurile culturale și bucătăria specifică, care reflectă o combinație de arome și tehnici culinare moștenite de la strămoșii turcici și adaptate condițiilor locale.",
-    "gagauz_example":"Găgăuzia este un exemplu de diversitate etnică și culturală în Moldova, contribuind la bogăția culturală a țării."
+    "gagauz_location": "Găgăuzia este o regiune autonomă situată în sudul Republicii Moldova, cunoscută pentru populația sa predominant găgăuză, un grup etnic de origine turcică.",
+    "gagauz_languages": "Cultura găgăuză este unică și distinctă, îmbinând influențe turcice cu tradițiile locale moldovenești. Limba găgăuză, parte a familiei limbilor turcice, este vorbită alături de limba română și rusă. Regiunea este renumită pentru obiceiurile sale tradiționale, festivalurile culturale și bucătăria specifică, care reflectă o combinație de arome și tehnici culinare moștenite de la strămoșii turcici și adaptate condițiilor locale.",
+    "gagauz_example": "Găgăuzia este un exemplu de diversitate etnică și culturală în Moldova, contribuind la bogăția culturală a țării."
   },
   "footer": {
   },
@@ -36,7 +62,6 @@
     "work_hours": "Orele de lucru",
     "open": "Deschis",
     "closed": "Închis"
-
   },
   "week": {
     "Monday": "L",
