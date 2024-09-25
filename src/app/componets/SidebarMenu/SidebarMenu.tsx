@@ -13,24 +13,24 @@ const SidebarMenu = () => {
   const currentSlug = pathname.split('/').filter(Boolean).pop()
 
   return (
-    <div className="md:block h-[500px] w-[300px] hidden border border-[#882727] rounded-2xl p-5">
-      {
-        menuList.map((item, index) => {
-          return (
-            <div key={index}
-                 onClick={() => router.push(`/menu/${item.slug}`)}
-                 className={cn('flex items-center gap-3 hover:font-bold hover:!text-[#882727] cursor-pointer mb-1',
-                   {
-                     'font-bold !text-[#882727]': item.slug === currentSlug,
-                   })}>
-              <Image src={item.iconSrc}
-                     width={22} height={22}
-                     alt={item.name} />
-              <span>{item.name}</span>
-            </div>
-          )
-        })
-      }
+    <div className='md:block h-[500px] w-3/5 hidden border border-[#882727] rounded-2xl p-5'>
+      {menuList.map((item, index) => {
+        return (
+          <div
+            key={index}
+            onClick={() => router.push(`/menu/${item.slug}`)}
+            className={cn(
+              'flex items-center gap-3 hover:font-bold hover:!text-[#882727] cursor-pointer mb-1',
+              {
+                'font-bold !text-[#882727]': item.slug === currentSlug,
+              },
+            )}
+          >
+            <Image src={item.iconSrc} width={22} height={22} alt={item.name} />
+            <span>{item.name}</span>
+          </div>
+        )
+      })}
     </div>
   )
 }

@@ -13,21 +13,15 @@ interface MenuProps {
 
 const Menu: FC<MenuProps> = ({ params }) => {
   const menuCardsList = useGetMenuCardsItems()
-  const filteredCards = menuCardsList.filter(card => card.group === params.slug)
+  const filteredCards = menuCardsList.filter((card) => card.group === params.slug)
 
   return (
-    <div className="flex gap-8 pt-16">
+    <div className='flex gap-8 pt-16'>
       <SidebarMenu />
-      <div className="flex flex-wrap justify-center md:justify-start gap-4 w-[80%] md:w-auto">
-        {
-          filteredCards.map((item, index) => (
-            <CardMenu
-              key={index}
-              imagePath={item.image}
-              {...item}
-            />
-          ))
-        }
+      <div className='flex flex-wrap justify-center md:justify-start gap-4 w-[80%] md:w-auto'>
+        {filteredCards.map((item, index) => (
+          <CardMenu key={index} imagePath={item.image} {...item} />
+        ))}
       </div>
     </div>
   )
