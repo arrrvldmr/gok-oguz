@@ -9,7 +9,7 @@ const Header = () => {
       <div className='flex justify-between mx-auto container'>
         <ul className='flex items-center gap-12 grow-[0.7] font-medium'>
           <li className='hover:underline hover:underline-offset-8'>
-            <Link href='/'>Principala</Link>
+            <Link href='/'>Principală</Link>
           </li>
           <li className='hover:underline hover:underline-offset-8'>
             <Link href='/menu'>Meniu</Link>

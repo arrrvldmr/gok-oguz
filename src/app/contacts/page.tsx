@@ -21,7 +21,7 @@ const Contacts = () => {
       <div className='flex flex-col leading-loose gap-2'>
         <div className='flex gap-4'>
           <Image src='/assets/svg/phone.svg' alt='phone' width={25} height={25}></Image>
-          <p>079468852</p>
+          <p>079468852 </p>
         </div>
         <div className='flex gap-4'>
           <Image src='/assets/svg/instagram.svg' alt='instagram' width={25} height={25}></Image>
