@@ -5,8 +5,18 @@
     "contacts": "Contacte"
   },
   "menuCardsItems": {
-    "carneGherghievschi": "Carne \"Po-Gheorghievski",
-    "descCarne": "Pilaf,legume la cuptor.",
+    "gustaricaGokOguz": "Gustărică “Gök-Oguz” (pentru doi)",
+    "descGustaricaGokOguz": "Aperitiv de cavurma rece, slănină, brânză și legume proaspete.",
+    "carneGheorghievschi": "Carne \"Po-Gheorghievski",
+    "descCarneGheorghievschi": "Pilaf,miel cu legume la cuptor.",
+    "cavurmaFierbinteMiel": "Cavurma fierbinte din carne de miel",
+    "descCavurmaFierbinteMiel": "Miel tocat în legume cu condimente.",
+    "surpaSef": "Şurpa",
+    "descSurpaSef": "Miel fiert cu os în supă cu legume și condimente.",
+    "lagmanSef": "Lagman",
+    "descLagmanSef": "Carne de miel cu supă și tăiței de casă",
+    "costitaMielSos": "Costiţă de miel coaptă cu sos (la cântar)",
+    "descCostitaMielSos": "Carne de miel la cuptor cu sos (vin, miere,condimente).",
     "friptura": "Friptură bulgărească",
     "descFriptura": "Carne de miel.",
     "budjak": "Gustare ”Budjak”",
@@ -40,6 +50,8 @@
     "salataContemporan": "Salată „Contemporan”",
     "descSalataContemporan": "Carne de pui fiartă, brânză, ardei gras și iute, castraveți, măsline, porumb, ulei de măsline.",
     "salataDeLegume": "Salată “De legume”",
+    "salataFierbinte": "Salată „Fierbinte”  picant",
+    "descSalataFierbinte": "Salată picantă cu legume coapte, carne de miel, ulei de măsline.",
     "descSalataDeLegume": "Roșii, castraveți, ardei gras, ceapă, verdeață.",
     "salataSmantana": "Salată „Cu smântână”",
     "descSalataSmantana": "Roșii, castraveți, ou, smântână.",
@@ -247,6 +259,7 @@
     "descVinRosuLitru": "Un litru de vin roşu."
   },
   "menuList": {
+    "bucate_sef": "Bucatele Șefului",
     "main_dish": "Gustări",
     "lamb": "Carne de miel",
     "chicken": "Carne de pui",
